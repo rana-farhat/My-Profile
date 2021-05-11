@@ -1,0 +1,135 @@
+
+
+h1 {
+  color: #17252A;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.rana {
+  font-weight: 800;
+}
+
+.dot {
+  color: #3AAFA9
+}
+
+.avatar {
+  width: 150;
+  height: 150px;
+  border:10px solid #2B7A78;
+  border-radius: 50%;
+  align-self: center;
+
+}
+
+.container {
+  /*margin: 0 auto;*/
+  color: #3AAFA9;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  width: 250px;
+  /*padding: 20px;*/
+  /*margin: 20px;*/
+}
+
+.intro {
+  margin-bottom: 40px;
+  /*border: 5px solid #DEF2F1;*/
+  font-size: 20px;
+  width: 300px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #FFFF;
+}
+
+.btn {
+  background-color: #3AAFA9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #17252A;
+}
+
+
+.connection {
+  text-align: left;
+  padding-left: 40px;
+}
+.text-purple {
+  color: #3AAFA9;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+.connect {
+  width: 200px;
+  color: #FFFF;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .html {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .html {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .html {
+    width: 300px;
+  }
+}
+
+/* Style the image inside the centered container, if needed */
+/*.centered img {
+  width: 150px;
+  border-radius: 50%;
+}*/
+
